@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 640px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .colum-color1 {
+    background-color: green;
+  }
+
+  .column-color2 {
+    background-color: red;
+  }
+
+  .column-color3 {
+    background-color: yellow;
+  }
+
+  .coloumn-color4 {
+    background-color: black;
+  }
